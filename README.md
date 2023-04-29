@@ -5,3 +5,4 @@ Tech-stack:
 - ReactJs
 - PaperJs
 - SCSS
+- framer motion
