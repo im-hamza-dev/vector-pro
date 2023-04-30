@@ -6,3 +6,10 @@ Tech-stack:
 - PaperJs
 - SCSS
 - framer motion
+- html2canvas export feature
+
+
+
+
+
+
