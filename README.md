@@ -7,7 +7,7 @@ Tech-stack:
 - SCSS
 - framer motion
 - html2canvas export feature
-
+- screenshot feature
 
 
 
