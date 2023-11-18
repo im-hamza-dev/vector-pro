@@ -1,0 +1,57 @@
+.home {
+  text-align: center;
+}
+
+.home-logo {
+  height: 250px;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .home-logo {
+    animation: home-logo-spin infinite 20s linear;
+  }
+}
+
+.home-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 120px;
+  .homeBrandName {
+    margin-bottom: 150px;
+    opacity: 0.7;
+  }
+
+  .homeRouteBtn {
+    border: 1px solid rgb(154, 154, 154);
+    border-radius: 10px;
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover {
+      border: 1px solid rgb(184, 184, 184);
+    }
+  }
+}
+.home-link {
+  color: #61dafb;
+}
+
+@keyframes home-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
